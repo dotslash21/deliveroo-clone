@@ -55,7 +55,7 @@ const FeaturedRow = ({ id, title, description }) => {
             genre={restaurant.category.name}
             address={restaurant.address}
             shortDescription={restaurant.short_description}
-            dishes={restaurant.dishes.map((dish) => dish.name)}
+            dishes={restaurant.dishes}
             longitude={restaurant.longitude}
             latitude={restaurant.latitude}
           />
