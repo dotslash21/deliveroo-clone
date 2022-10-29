@@ -51,9 +51,7 @@ const BasketScreen = () => {
 
         <View className="flex-row items-center space-x-4 px-4 py-3 bg-white my-5">
           <Image
-            source={{
-              uri: "https://res.cloudinary.com/dotslash21/image/upload/v1665308315/deliveroo-clone/logo.webp",
-            }}
+            source={require("../assets/logo.webp")}
             className="h-7 w-7 bg-gray-300 p-4 rounded-full"
           />
 
