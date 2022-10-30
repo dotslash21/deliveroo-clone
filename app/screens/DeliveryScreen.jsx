@@ -36,7 +36,7 @@ const DeliveryScreen = () => {
             </View>
 
             <Image
-              source={require("../assets/rider.webp")}
+              source={require("../assets/rider.gif")}
               className="h-20 w-20"
             />
           </View>
