@@ -15,9 +15,7 @@
       "fallbackToCacheTimeout": 0,
       "url": "https://u.expo.dev/6761d28c-668f-422c-a654-c970216908eb"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.dotslash21.deliverooclone"
@@ -27,7 +25,12 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.dotslash21.deliverooclone"
+      "package": "com.dotslash21.deliverooclone",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBFsZyg-Fdx-66spF_ADXNGSMxekBXU7_g"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
